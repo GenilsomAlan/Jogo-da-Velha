@@ -1,0 +1,76 @@
+*{
+        margin: 0;
+}
+body{
+        background-color: rgb(51, 50, 50);
+}
+h1{
+        font-size: 300%;
+        text-align: left;
+        text-indent: 50px;
+        color: goldenrod;
+}
+.header{
+        width: 80%;
+        height: 65px;
+        background-color: gray;
+        margin-left: 10%;
+        box-shadow: -6px 6px 10px black;
+        background-attachment: fixed;
+}
+div.table{
+        width: 300px;
+        height: 300px;
+        background-color: gray;
+        box-shadow: -6px 6px 10px black;
+        margin-left: 37%;
+        margin-top: 100px;
+}
+p{
+        color: red;
+        font-size: 50px;
+        margin-left: 20px;
+        margin-top: 15px;
+        vertical-align: text-top;
+        position: fixed;
+}
+button.piece{
+        width: 90px;
+        height: 90px;
+        border: 1px solid transparent;
+        cursor: pointer;
+        display: inline-flex;
+        margin-top: 5px;
+        margin-left: 5px;
+}
+button.piece:hover:nth-child(odd){
+        background-color: rgb(173, 173, 173);
+}
+button.piece:hover:nth-child(even){
+        background-color: rgb(173, 131, 22);
+}
+button.piece:nth-child(odd){
+        background-color: ghostwhite;
+}
+button.piece:nth-child(even){
+        background-color: goldenrod;
+}
+button.start{
+        width: 100px;
+        height: 30px;
+        background-color: goldenrod;
+        border: 1px solid transparent;
+        margin-right: 10%;
+        margin-left: 40%;
+        margin-top: 50px;
+        cursor: pointer;
+        box-shadow: -6px 6px 10px black;
+        color: ghostwhite;
+}
+button.start:hover{
+        background-color: rgb(173, 131, 22);
+}
+#result{
+        font-size: 20px;
+
+}
