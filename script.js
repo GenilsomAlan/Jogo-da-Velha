@@ -1,6 +1,6 @@
 	var structData = [["1","2","1"],
-					  ["1","1","2"],
-					  ["2","1","2"]]
+			  ["1","1","2"],
+			  ["2","1","2"]]
 	const symbol = ["X","O"]
 	var numberX = 0
 	const button1 = document.querySelector("#piece1")
